@@ -1,0 +1,23 @@
+nav {
+  @media screen and (max-width: 765px) {
+    display: none;
+  }
+}
+
+nav a {
+  color: #212529;
+}
+
+nav a:hover {
+  color: #05e2bd;
+}
+
+.cardlar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 70px;
+}
+.carousel-caption {
+  margin-bottom: 150px;
+}
